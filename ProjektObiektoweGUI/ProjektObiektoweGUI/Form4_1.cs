@@ -17,10 +17,10 @@ namespace ProjektObiektoweGUI
             label2.Text += trans.Platforma;
             label3.Text += trans.Rodzaj;
             label4.Text += trans.Cena;
-            label5.Text += trans.ObiektTrans;
-            label6.Text += trans.DataTrans;
-            label7.Text += trans.Inter;
-            label8.Text += trans.Prac;
+            label8.Text += trans.IdTel;
+            label6.Text += trans.Data;
+            label7.Text += trans.Interesariusz;
+            label5.Text += trans.Pracownik;
 
         }
 

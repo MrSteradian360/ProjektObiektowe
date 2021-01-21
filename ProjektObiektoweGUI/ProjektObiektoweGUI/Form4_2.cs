@@ -18,11 +18,15 @@ namespace ProjektObiektoweGUI
         private void button1_Click(object sender, EventArgs e)
         {
 
-            if ()
+            if (textBox6.Text !="" && textBox7.Text != ""  
+                && textBox1.Text != "" && textBox3.Text != "" 
+                && textBox2.Text != "" && textBox4.Text != ""
+                && textBox5.Text != "")
             {
                 SpisTransakcji.SpisTrans.Add(
-                    new Transakcja((Transakcja.Platformy)comboBox1.SelectedItem, (Transakcja.Rodzaje)comboBox2.DataSource,
-                    Decimal.Parse(textBox1.Text), comboBox3.SelectedIndex ,textBox2.Text, (SpisOdbiorców.)comboBox4.SelectedItem,comboBox1.Controls));
+                    new Transakcja(textBox6.Text, textBox7.Text,
+                    Decimal.Parse(textBox1.Text), textBox3.Text,
+                    textBox2.Text, textBox4.Text, textBox5.Text));
                 this.Close();
             }
             //Form1.Form2x.Update();

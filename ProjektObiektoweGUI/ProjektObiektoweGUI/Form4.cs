@@ -122,7 +122,7 @@ namespace ProjektObiektoweGUI
                 SpisTransakcji.ListaTrans.RemoveAll(x => lista.Contains(x));
                 SpisTransakcji.SpisTrans.RemoveAll(x =>
                 //lista.Contains(x.Model) && lista.Contains(x.Marka) && lista.Contains(String.Format("T-{0:D5}", x.IdTel)));
-                lista.Contains(String.Format("TR-{0:D5} {1} {2} {3}", x.IdTrans, x.DataTrans.ToString(), x.ObiektTrans.ToString(), x.Cena.ToString())));
+                lista.Contains(String.Format("TR-{0:D5} {1} {2} {3}", x.IdTrans, x.Data.ToString(), x.IdTel.ToString(), x.Cena.ToString())));
                 /*                foreach (Transakcja t in SpisTransakcji.SpisTrans)
                                 {
                                     listBox1.Items.Add(t);
@@ -180,7 +180,7 @@ namespace ProjektObiektoweGUI
                 SpisTransakcji.ListaTrans.RemoveAll(x => lista.Contains(x));
                 SpisTransakcji.SpisTrans.RemoveAll(x =>
                 //lista.Contains(x.Model) && lista.Contains(x.Marka) && lista.Contains(String.Format("T-{0:D5}", x.IdTel)));
-                lista.Contains(String.Format("TR-{0:D5} {1} {2} {3}", x.IdTrans, x.DataTrans.ToString(), x.ObiektTrans.ToString(), x.Cena.ToString())));
+                lista.Contains(String.Format("TR-{0:D5} {1} {2} {3}", x.IdTrans, x.Data.ToString(), x.IdTel.ToString(), x.Cena.ToString())));
                 textBox2_Load();
                 listBox1.Items.Clear();
             }

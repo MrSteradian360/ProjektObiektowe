@@ -39,11 +39,11 @@ namespace ProjektObiektoweGUI
             this.label8 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -140,40 +140,40 @@ namespace ProjektObiektoweGUI
             this.textBox2.Size = new System.Drawing.Size(201, 27);
             this.textBox2.TabIndex = 55;
             // 
-            // comboBox1
+            // textBox6
             // 
-            this.comboBox1.Location = new System.Drawing.Point(122, 50);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(240, 28);
-            this.comboBox1.TabIndex = 53;
+            this.textBox6.Location = new System.Drawing.Point(122, 50);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(240, 28);
+            this.textBox6.TabIndex = 53;
             // 
-            // comboBox2
+            // textBox7
             // 
-            this.comboBox2.Location = new System.Drawing.Point(96, 85);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(266, 28);
-            this.comboBox2.TabIndex = 52;
+            this.textBox7.Location = new System.Drawing.Point(96, 85);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(266, 28);
+            this.textBox7.TabIndex = 52;
             // 
-            // comboBox3
+            // textBox3
             // 
-            this.comboBox3.Location = new System.Drawing.Point(122, 260);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(240, 28);
-            this.comboBox3.TabIndex = 54;
+            this.textBox3.Location = new System.Drawing.Point(122, 260);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(240, 28);
+            this.textBox3.TabIndex = 54;
             // 
-            // comboBox4
+            // textBox4
             // 
-            this.comboBox4.Location = new System.Drawing.Point(143, 225);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(219, 28);
-            this.comboBox4.TabIndex = 53;
+            this.textBox4.Location = new System.Drawing.Point(143, 225);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(219, 28);
+            this.textBox4.TabIndex = 53;
             // 
-            // comboBox5
+            // textBox5
             // 
-            this.comboBox5.Location = new System.Drawing.Point(172, 155);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(190, 28);
-            this.comboBox5.TabIndex = 52;
+            this.textBox5.Location = new System.Drawing.Point(172, 155);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(190, 28);
+            this.textBox5.TabIndex = 52;
             // 
             // button1
             // 
@@ -204,11 +204,11 @@ namespace ProjektObiektoweGUI
             this.ClientSize = new System.Drawing.Size(445, 374);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox5);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label8);
@@ -243,11 +243,11 @@ namespace ProjektObiektoweGUI
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4; 
-        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4; 
+        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
     }
