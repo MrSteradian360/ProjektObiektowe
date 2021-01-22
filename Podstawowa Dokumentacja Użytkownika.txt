@@ -1,0 +1,43 @@
+Nasz projekt ma za zadanie zbierać dane na rzecz sklepu z telefonami.
+
+Klasy:
+Telefony - w tej klasie są zawarte zmienne danych technicznych telefonów oraz funkcja zliczająca
+MagazynTelefonów - w tej klasie są funkcje wykorzystywane do dodawania, usuwania i szukania telefonów w liście
+Pracownik - w tej klasie są zawarte zmienne dane opisujące pracowników oraz funkcja zliczająca
+SpisPracowników - w tej klasie są funkcje wykorzystywane do dodawania, usuwania i szukania pracowników w liście
+Interesariusz - w tej klasie są zawarte zmienne dane opisujące interesariuszy
+Dostawca - w tej klasie są zawarte zmienne dane opisujące dostawców oraz funkcja zliczająca
+SpisDostawców - w tej klasie są funkcje wykorzystywane do dodawania, usuwania i szukania dostawców w liście
+Odbiorca - w tej klasie są zawarte zmienne dane opisujące odbiorców oraz funkcja zliczająca
+SpisOdbiorców - w tej klasie są funkcje wykorzystywane do dodawania, usuwania i szukania odbiorców w liście
+Trasakcja - w tej klasie są zawarte zmienne dane opisujące tranakcje oraz funkcja zliczająca
+SpisTransakcji - w tej klasie są funkcje wykorzystywane do dodawania, usuwania i szukania transakcji w liście
+
+
+
+Funckje GUI:
+Pierwsza funkcja GUI po uruchomieniu programu otwiera okno z wyborami kategorii: Telefony, Pracownicy, Transakjce, Odbiorcy, Dostawcy, Informacje.
+Po kliknięciu w wybraną kategorię otwiera się osobne okno funkcyjne.
+Każde okno funkcyjne poza "Informacje" ma następującą funkcje:
+-wyświetla liste
+-po dwukrotnym kliknięciu na obiekt z listy otwiera o nim dodatkowe informacje
+-posiada możliwość wyszukania obiektu z listy
+-posiada możliwość dodawania i usuwania obiektów z listy
+-posiada możliwość podliczania obiektów z listy
+-posiada możliwość całkowitego wyczyszczenia listy
+
+Po każdym uruchomieniu funkcji dodania obiektu otwiera się nowe okno funkcyjne, które służy do wprowadzania danych o obiekcie
+
+Okno funkcyjne "Informacje" zawiera informacje o autorach.
+
+
+
+
+
+
+
+
+
+
+
+
