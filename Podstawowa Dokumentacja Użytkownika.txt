@@ -1,4 +1,5 @@
-Nasz projekt ma za zadanie zbierać dane dotyczące funkcjonowania internetowego sklepu sprzedaży telefonów. Kod wykorzystuje mechanizmy dziedziczenia, interfejsów, klas abstrakcyjnych oraz serializacji. Dodatkowo w kodzie znajdują się proste testy jednostkowe dla podstawowych klas.
+Nasz projekt ma za zadanie zbierać dane dotyczące funkcjonowania internetowego sklepu sprzedaży telefonów. Kod wykorzystuje mechanizmy dziedziczenia, interfejsów, klas
+abstrakcyjnych oraz serializacji. Dodatkowo w kodzie znajdują się proste testy jednostkowe dla podstawowych klas.
 
 Klasy:
 Telefony - w tej klasie są zawarte zmienne danych technicznych telefonów, metody pozwalacjące na porównywanie i klonowanie obiektów oraz zmienna zliczająca.
@@ -26,7 +27,8 @@ Każde oknno oprócz "Informacji" ma następującą funkcje:
 -posiada możliwość zliczania obiektów na liście
 -posiada możliwość całkowitego wyczyszczenia listy
 Po każdym naciśnięciu przycisku dodania obiektu otwiera się nowe okno, które służy do wprowadzania danych o obiekcie. Jeśli dane są niepoprawne, nie ma możliwości
-zatwierdzenia nowego obiektu, dopóki dane nie zostaną zmienione na właściwe. Nowo dodany obiekt pojawia się na liście. W celu usunięcia obiektu można nacisnąć na niego lewym przyciskiem myszy, a następnie kliknąć przycisk usuwania. Chcąc usunąć wiele obiektów można wpisać część nazwy, a następnie nacisnąć przycisk usuwania. 
+zatwierdzenia nowego obiektu, dopóki dane nie zostaną zmienione na właściwe. Nowo dodany obiekt pojawia się na liście. W celu usunięcia obiektu można nacisnąć na niego lewym 
+przyciskiem myszy, a następnie kliknąć przycisk usuwania. Chcąc usunąć wiele obiektów można wpisać część nazwy, a następnie nacisnąć przycisk usuwania. 
 
 Okno "Informacje" zawiera informacje o autorach.
 
